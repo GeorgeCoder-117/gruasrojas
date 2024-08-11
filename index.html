@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+	<meta http-equiv="ScreenOrientation" content="autoRotate:disabled">
+	<title>Grúas Rojas</title>
+
+	<!--=============== SWIPER CSS ===============-->
+	<link rel="stylesheet" href="css/swiper-bundle.min.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+	<link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+	<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+
+<body>
+	<a class="whats-btn" href="https://wa.me/+525544007236" target="_blank">
+		<i class="uil uil-whatsapp"></i>
+	</a>
+
+	<div class="scroll-up">
+		<i class="uil uil-sort"></i>
+	</div>
+
+	<div class="wrapper">
+		<input type="checkbox" id="menu-toggle">
+		<header>
+			<div class="logo">
+				<img src="img/logo.jpeg" alt="logo gruas">
+			</div>
+			<div class="main-menu">
+				<ul>
+					<li><a href="#inicio">Inicio</a></li>
+					<!--Slider -->
+					<li><a href="#nosotros">Nosotros</a></li>
+					<!--Historia / Imagen / texto -->
+					<li><a href="#servicios">Servicios</a></li> <!-- Tipos de gruas -->
+					<li><a href="#contacto">Contacto</a></li> <!-- Mapa .. e info contacto -->
+					<li><a href="#trabajo">Bolsa de trabajo</a></li>
+				</ul>
+			</div>
+
+			<label for="menu-toggle">
+				<i class="uil uil-bars"></i>
+			</label>
+		</header>
+		<!-- Para que al dar click en inicio menu header aparezca antes del slider -->
+		<div id="inicio">
+		</div>
+	</div>
+
+	<!-- AQUI EMPIEZA SLIDER -->
+	<!-- Swiper -->
+	<div class="swiper mainSlider">
+		<div class="swiper-wrapper">
+			<div class="swiper-slide">
+				<img src="img/banner1.png" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/banner2.png" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/banner3.png" alt="">
+			</div>
+			<div class="swiper-slide">
+				<img src="img/banner4.png" alt="">
+			</div>
+		</div>
+		<div class="swiper-button-next gruasIntro"></div>
+		<div class="swiper-button-prev gruasIntro"></div>
+		<div class="swiper-pagination"></div>
+	</div>
+
+	<div id="nosotros" class="wrapper">
+
+		<section>
+			<div class="section-title">
+				<h1>Nosotros</h1>
+			</div>
+			<div class="nosotros_gruas-wrapper">
+				<div class="nosotros_gruas-grap left"></div>
+				<div class="nosotros_gruas-grap right"></div>
+				<div class="nosotros_gruas">
+					<h1>Misión</h1>
+					<p>
+						Ofrecer a nuestros clientes un servicio de alta calidad que refleje
+						entera satisfacción a los mismos.
+					</p>
+					<br>
+					<h1>Visión</h1>
+					<div>
+						<p>
+							Ser la empresa con mayor acreditación dentro de nuestra zona operacional
+							y como consecuencia ampliar nuestro mercado de acción.
+						</p>
+					</div>
+					<br>
+					<h1>Metas</h1>
+					<div>
+						<p>
+							Se busca que nuestra empresa se acredite positivamente ante nuestro mercado de acción
+							ofreciendo un servicio eficaz y eficiente.
+						</p>
+					</div>
+					<br>
+					<h1>Objetivos</h1>
+					<div>
+						<p>
+							Somos una empresa con grandes expectativas de crecimiento
+							por lo que buscamos la satisfacción de nuestros clientes,
+							considerando que para la prestación de nuestro servicio siempre
+							es necesario trabajar con calidad y proporcionar un excelente trato a nuestros usuarios.
+						</p>
+					</div>
+				</div>
+			</div>
+		</section>
+
+	</div>
+
+	<!-- Seccion servicios -->
+	<section id="servicios">
+		<div class="section-title">
+			<h1>Tipos de gruas</h1>
+		</div>
+
+		<br><br>
+		<!-- Tabs gruas -->
+		<ul class="tabsGruas">
+			<li>Grúa tipo A</li>
+			<li>Grúa tipo B</li>
+			<li>Grúa tipo C</li>
+			<li>Grúa tipo D</li>
+		</ul>
+
+		<!-- TABS CONTENT -->
+		<div class="container-tabs">
+			<!-- Grua tipo 1 -->
+			<div class="container-gruas">
+				<div class="gruas_data">
+					<img src="img/A2.png" alt="">
+					<div class="gruas_info">
+						<h2>Grúas Tipo A, plataforma y arrastre</h2>
+						<p>
+							Para cualquier tipo de vehículo que no exceda 3.5 tons, capacidad de hasta 2
+							vehículos.
+						</p>
+					</div>
+				</div>
+				<div class="line-tecno"></div>
+			</div>
+
+			<!-- Grua tipo 2 -->
+			<div class="container-gruas">
+				<div class="gruas_data">
+					<img src="img/C1.png" alt="">
+					<div class="gruas_info">
+						<h2>Grúas Tipo B, plataforma y arrastre</h2>
+						<p>
+							Para cualquier tipo de vehículo que no exceda 6 tons, capacidad de hasta 2 vehículos.
+						</p>
+					</div>
+				</div>
+				<div class="line-tecno"></div>
+			</div>
+
+			<!-- Grua tipo 3 -->
+			<div class="container-gruas">
+				<div class="gruas_data">
+					<img src="img/B2.png" alt="">
+					<div class="gruas_info">
+						<h2>Grúas Tipo C, plataforma y arrastre</h2>
+						<p>
+							Para cualquier tipo de vehículo que no exceda 12 tons, capacidad de hasta 2 vehículo.
+						</p>
+					</div>
+				</div>
+				<div class="line-tecno"></div>
+			</div>
+
+			<!-- Grua tipo 4 -->
+			<div class="container-gruas">
+				<div class="gruas_data">
+					<img src="img/dd5.png" alt="">
+					<div class="gruas_info">
+						<h2>Grúas Tipo D, arrastre y salvamento</h2>
+						<p>
+							Para cualquier tipo de vehículo mayor a 12 tons, capacidad de carga y arrastre hasta 50
+							tons.
+						</p>
+					</div>
+				</div>
+				<div class="line-tecno"></div>
+			</div>
+		</div>
+	</section>
+
+
+
+	<div class="section-title">
+		<h1>Tipos de servicios</h1>
+	</div>
+	<div class="wrapper">
+		<section>
+			<div class="contact-grid">
+				<div class="contact">
+					<h3>Arrastre</h3>
+					<br>
+					<!-- <span><i class="uil uil-windows"></i> <i class="uil uil-desktop"></i> <i
+							class="uil uil-mouse-alt-2"></i></span> -->
+					<p>
+						Traslado de cualquier tipo de vehículo y maquinaria, en plataforma o dolly de manera segura a
+						cualquier parte de la república.
+					</p>
+				</div>
+				<div class="contact">
+					<h3>Auxilio vial</h3>
+					<!-- <span><i class="uil uil-wifi-router"></i> <i class="uil uil-modem"></i></span> -->
+					<!-- <p> -->
+					<br>
+					<ol start="1">
+						<li>- Cambio de llantas</li>
+						<li>- Paso de corriente</li>
+						<li>- Gasolina</li>
+						<li>- Traslado de personas (taxi ejecutivo)</li>
+						<li>- Traslado de mercancía</li>
+					</ol>
+					<!-- </p> -->
+				</div>
+				<div class="contact">
+					<h3>Salvamento</h3>
+					<!-- <span><i class="uil uil-arrow"></i> <i class="uil uil-html5"></i> <i
+							class="uil uil-css3-simple"></i>
+						<i class="uil uil-java-script"></i></span> -->
+					<br>
+					<p>
+						Maniobras de rescate, especiales para cualquier tipo de vehículo, mercancias o maquinaria.
+					</p>
+				</div>
+
+				<div class="contact">
+					<h3>Depósito</h3>
+					<!-- <span><i class="uil uil-qrcode-scan"></i> <i class="uil uil-palette"></i></span> -->
+					<br>
+					<p>
+						Guardia y custodia de cualquier vehículo, mercancía o maquinaria a resguardo de cualquier
+						autoridad competente.
+					</p>
+				</div>
+
+
+
+
+			</div>
+		</section>
+	</div>
+
+
+	<!-- SubSeccion de agradecimientos -->
+	<div class="section-title">
+		<h1>Especialistas en arrastres, maniobras y traslados locales o foráneos.</h1>
+	</div>
+
+	<div class="container_agradecimientos">
+		<div class="value__container">
+			<!-- <div class="value__images">-->
+			<!-- 	<div class="value__img">-->
+			<!-- 	<img src="img/B3.png" alt="">-->
+			<!--  </div>-->
+			<!-- </div> -->
+			<div class="value__content">
+				<div class="value__data">
+					<h2 class="section__title">
+						El mejor servicio<span>.</span>
+					</h2>
+					<br>
+					<p class="value__description">
+						Siempre estamos dispuestos a ayudar ofreciendote la mejor calidad en el servicio.
+					</p>
+				</div>
+
+				<div class="value__accordion">
+					<div class="value__accordion-item">
+						<header class="value__accordion-header">
+							<i class='bx bx-check-shield value__accordion-icon'></i>
+							<h3 class="value__accordion-title">
+								Con los más altos estandares
+							</h3>
+							<div class="value__accordion-arrow">
+								<i class='bx bxs-down-arrow'></i>
+							</div>
+						</header>
+
+						<div class="value__accordion-content">
+							<img src="img/B3.png" alt="">
+							<div class="value__accordion-description">
+								Nuestras unidades están equipadas y nuestro personal esta calificado de acuerdo a la
+								norma oficial mexicana y gaceta de gobierno de la secretaría de movilidad.
+							</div>
+						</div>
+					</div>
+
+					<div class="value__accordion-item">
+						<header class="value__accordion-header">
+							<i class='bx bx-lock-alt value__accordion-icon'></i>
+							<h3 class="value__accordion-title">
+								Prevenimos tu seguridad
+							</h3>
+							<div class="value__accordion-arrow">
+								<i class='bx bxs-down-arrow'></i>
+							</div>
+						</header>
+
+						<div class="value__accordion-content">
+							<img src="img/B3.png" alt="">
+							<div class="value__accordion-description lista">
+								- Padrón de operadores actualizado<br>
+								- GPS en todas las unidades y telefonos de rastreo<br>
+								- Equipo de seguridad en personal y unidades<br>
+								- Contacto directo con supervisor o personal administrativo para una pronta
+								respuesta<br>
+							</div>
+
+
+						</div>
+					</div>
+
+					<div class="value__accordion-item">
+						<header class="value__accordion-header">
+							<i class='bx bx-bar-chart-square value__accordion-icon'></i>
+							<h3 class="value__accordion-title">
+								El mejor servicio.
+							</h3>
+							<div class="value__accordion-arrow">
+								<i class='bx bxs-down-arrow'></i>
+							</div>
+						</header>
+
+						<div class="value__accordion-content">
+							<img src="img/B3.png" alt="">
+							<p class="value__accordion-description">
+								Grúas 24 horas los 7 días de la semana para cualquier vehículo, mercancia o maquinaria a
+								cualquier parte de la república.
+							</p>
+						</div>
+					</div>
+
+					<div class="value__accordion-item">
+						<header class="value__accordion-header">
+							<i class='bx bx-lock-alt value__accordion-icon'></i>
+							<h3 class="value__accordion-title">
+								Formas de pago
+							</h3>
+							<div class="value__accordion-arrow">
+								<i class='bx bxs-down-arrow'></i>
+							</div>
+						</header>
+
+						<div class="value__accordion-content">
+							<img src="img/B3.png" alt="">
+							<p class="value__accordion-description">
+								Efectivo, transferencia o depósito en cualquiera de los servicios.
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<!-- GALERIA DE GRUAS -->
+	<div class="new_gallery">
+		<div class="txtGaleria">
+			<p>GALERIA</p>
+		</div>
+		<div class="cont_gallery">
+			<div class="slider_gallery">
+				<div class="slides" style="--img: url('../img/g1.jpeg')">
+				</div>
+
+
+				<div class="slides" style="--img: url('../img/g3.jpeg')">
+				</div>
+				<div class="slides" style="--img: url('../img/g5.jpeg')">
+				</div>
+				<div class="slides" style="--img: url('../img/g7.jpeg')">
+				</div>
+
+				<div class="slides" style="--img: url('../img/A2.png')">
+				</div>
+
+				<div class="slides" style="--img: url('../img/A6.png')">
+				</div>
+				<div class="slides" style="--img: url('../img/C3.png')">
+				</div>
+				<div class="slides" style="--img: url('../img/D6.png')">
+				</div>
+			</div>
+			<div class="buttons_gallery">
+				<span class="prev"></span>
+				<span class="next"></span>
+			</div>
+		</div>
+	</div>
+
+	<!-- <div class="row_galeria">
+		<div class="columna_galeria">
+			<img src="img/gruas.webp" alt="">
+			<img src="img/tipoD.jpg" alt="">
+			<img src="img/tipoA.jpg" alt="">
+		</div>
+		<div class="columna_galeria">
+			<img src="img/tipoB.jpg" alt="">
+			<img src="img/tipoC.jpg" alt="">
+			<img src="img/tipoD.jpg">
+		</div>
+		<div class="columna_galeria">
+			<img src="img/tipoA.jpg" alt="">
+			<img src="img/tipoB.jpg" alt="">
+			<img src="img/tipoC.jpg" alt="">
+		</div>
+	</div> -->
+
+
+	<!-- Sección contacto -->
+	<section id="contacto"></section>
+	<br><br>
+	<div class="section-title">
+		<h1>Contacto</h1>
+	</div>
+	<iframe id="map"
+		src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3756.8210296127254!2d-99.1354781!3d19.6776394!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTnCsDQwJzM5LjciTiA5OcKwMDgnMDcuNiJX!5e0!3m2!1ses-419!2smx!4v1715120082007!5m2!1ses-419!2smx"
+		style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+	</iframe>
+
+	<!-- Sección BOLSA DE TRABAJO -->
+	<section id="trabajo"></section>
+	<br><br>
+	<div class="section-title">
+		<h1>Bolsa de trabajo</h1>
+	</div>
+
+
+	<footer>
+		<div class="wrapper">
+			<!-- <br><br><br><br><br><br> -->
+			<div class="footer-grid" id="contactme">
+				<div class="links">
+					<h3>Contactanos</h3>
+					<ul>
+						<li>
+							<a class="callme" href="tel:+5558920401"><i class="uil uil-outgoing-call"></i>
+								5558920401</a>
+						</li>
+						<li>
+							<a class="callme" href="tel:+5558920566"><i class="uil uil-outgoing-call"></i>
+								5558920566</a>
+						</li>
+						<li>
+							<a class="callme" href="tel:+5558924177"><i class="uil uil-outgoing-call"></i>
+								5558924177</a>
+						</li>
+						<li>
+							<a id="emailme" href="mailto:gruas@grupo-rojas.com.mx"><i class="uil uil-envelope-edit"></i>
+								gruas@grupo-rojas.com.mx</a>
+						</li>
+					</ul>
+					<br>
+					<!-- <a href="sms:+" class="btn-sms"><i class="uil uil-comment-alt-lines"></i> Envíame un
+						SMS
+					</a> -->
+				</div>
+				<div class="links">
+					<h3>Dirección</h3>
+					<p>Calle Progreso Municipal 48, San Martin, 54960 Tultepec, Méx.</p>
+				</div>
+				<div class="links social">
+					<h3>Redes sociales</h3>
+					<ul>
+						<li>
+							<a class="" href="">
+								<i class='bx bxl-facebook'></i>
+							</a>
+						</li>
+						<li>
+							<a class="" href=""><i class='bx bxl-twitter'></i>
+							</a>
+						</li>
+						<li>
+							<a class="" href=""><i class='bx bxl-instagram'></i>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+	</footer>
+
+
+	<!-- LAST JQUERY -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+	<!--=============== SWIPER JS ===============-->
+	<script src="js/swiper-bundle.min.js"></script>
+
+	<!--=============== FILTER JS ===============-->
+	<script src="js/mixitup.min.js"></script>
+
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/scroll.js"></script>
+
+</body>
+
+</html>
